@@ -10,7 +10,7 @@ public class Bulbasaur {
 
     // setLevel method
     public void setLevel(int lv) {
-        this.level = lv;
+        level = lv;
 
         if (level >= 32){
             id = 3;
@@ -54,11 +54,8 @@ public class Bulbasaur {
     // equals method
     @Override
     public boolean equals(Object obj) {
-        if (this == obj) {
-            Bulbasaur anotherObject = (Bulbasaur) obj;
-            return this.id == anotherObject.id && this.level == anotherObject.level;
-        }
-        return false;
+        Bulbasaur anotherObject = (Bulbasaur) obj;
+        return this.id == anotherObject.id && this.level == anotherObject.level;
     }
 
     // copy method
