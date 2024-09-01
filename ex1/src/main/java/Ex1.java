@@ -9,8 +9,6 @@ public class Ex1 {
      */
 
     public static long calculateGaussSum(long start, long step, int count) {
-        // TODO: Implement this method to calculate the sum of the arithmetic progression
-        // Hint: Use a loop to add up all the terms
         long result = 0;
         for(int i = 0; i < count; i++){
             result += start + (step * i);
@@ -20,9 +18,6 @@ public class Ex1 {
     }
 
     public static void main(String[] args) {
-        // TODO: Call the calculateGaussSum method with the correct parameters
-        // and print the result
-        // Parameters for the problem: start = 81297, step = 198, count = 100
         long start = 81297;
         long step = 198;
         int count = 100;
